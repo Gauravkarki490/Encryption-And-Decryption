@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-otp=""
+
 
 app.secret_key=os.getenv("secret_key")
 Host=os.getenv("Host")
